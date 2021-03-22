@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  font-size: 11px;
+  display: inline-block;
+  line-height: 24px;
+  font-weight: 350px;
+  cursor: pointer;
+  padding: 5px 6.5px;
+}
+
+nav img {
+  width: 30px;
+  padding: 5px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.nav-a {
+  opacity: 0.8;
+  text-decoration: none;
+  color: black;
+  padding: 7px;
+  display: inline-block;
+}
+
+nav button {
+  border: 1.5px;
+  outline: none;
+  color: gray;
+}
+
+.section_1 {
+  flex: 1;
+}
+
+.section_a .google {
+  display: block;
+  margin: 0px auto;
+  margin-top: 107px;
+}
+
+.input_div {
+  position: relative;
+  margin: 0 auto;
+  width: 35%;
+}
+
+.input_css {
+  display: block;
+  border: 1px solid rgb(221, 221, 221);
+  font-size: 15px;
+  padding: 0 35px;
+  border-radius: 25px;
+  width: 100%;
+  height: 42px;
+  border-style: outset;
+}
+
+.search_item {
+  top: 10px;
+  right: 18px;
+  height: 19px;
+  position: absolute;
+  opacity: 0.55;
+}
+
+.vs {
+  top: 10px;
+  left: 21px;
+  height: 19px;
+  position: absolute;
+  opacity: 0.9955;
+}
